@@ -1,0 +1,143 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Lobster&family=Roboto+Slab:wght@500&family=Tektur:wght@800&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Kanit&family=Lobster&family=Roboto+Slab:wght@500&family=Tektur:wght@800&display=swap');
+
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* top */
+.top{
+    width: 100%;
+    height: 40vw;
+    background-color: #425c51;
+}
+/* right-nav */
+
+.right-nav ul li{
+    padding: 0 20px;
+    text-transform: capitalize;
+    color: #7a9288;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    font-family:  'Roboto Slab', serif;
+    
+
+
+}
+
+/* hover on ul */
+ul li:hover{
+     border-bottom: 3px solid #e6c856;
+    color: #ffffff;
+    transform: scale(1.2);
+    transition: ease-in;
+    width: inherit;
+    
+   
+
+}
+.topnav a.active {
+    border-bottom: 1px solid #e6c856;
+  }
+  /* nav icons */
+
+  .right-nav i{
+    margin: 0 20px;
+    color: #ffffff;
+  }
+  /* icons hover */
+
+  i:hover{
+    transform: scale(1.5);
+  }
+
+  /* left-mid */
+
+  .left-mid{
+    padding: 200px 0;
+  }
+h2{
+    
+font-family: 'Roboto Slab', serif;
+
+}
+
+/* left-mid button */
+
+.left-mid button{
+    width: 112px;
+    text-align: center;
+    height: 50px;
+    border-radius: 35%;
+    background: transparent;
+    border: 1px solid white;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+/* button hover */
+
+button:hover{
+    background-color: #e6c856;
+    color: black;
+}
+
+.top .right-mid{
+    background-image: url(dotted.png);
+    background-position: 13vw;
+    background-size: 58vw;
+    background-repeat: no-repeat;
+    
+    
+}
+/* sofa img */
+
+#sofa-img{
+    margin-bottom: 448px;
+    
+}
+
+/* mid */
+.mid{
+    width: 100%;
+    height: 40vw;
+    background-color: lightgrey;
+}
+/* sideimage */
+#sideimg{
+    height:700px;
+    width: 577px;
+    
+}
+/* bottom */
+.bottom{
+    background-color: lightgray;
+    width: 100%;
+    height: 30vw;
+}
+.left-bottom{
+    margin: 0 246px;
+}
+
+#first-chair{
+    height: 233px;
+    width: 231px;
+}
+
+#second-chair{
+    height: 233px;
+    width: 160px; 
+}
+
+#third-image{
+    height: 292px;
+    width: 258px;
+}
+.right-bottom img{
+    padding: 0 30px;
+}
